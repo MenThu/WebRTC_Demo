@@ -9,7 +9,7 @@
 import Foundation
 
 //这里设置你的服务器端电脑连接的wifi的ip地址
-fileprivate let server_wifi_ip:String = "10.10.60.79"
+fileprivate let server_wifi_ip:String = "10.100.129.175"
 
 //连接服务端的URL
 fileprivate let defaultSignalingServerUrl = URL(string: "ws://\(server_wifi_ip):8080")!
